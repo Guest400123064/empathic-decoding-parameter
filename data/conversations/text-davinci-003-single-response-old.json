@@ -1,0 +1,704 @@
+[
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel embarrassed and ashamed. I would feel like my worth as a person had been diminished, and I would feel like I had failed to live up to the expectations of those around me. I would also feel like I had done something wrong, even though I may not know what. I would feel like I had been judged and found lacking, and that would make me feel very insecure.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really hurt and embarrassed. I would feel like I had done something wrong and I would become incredibly self-conscious. I would feel like it was a personal attack and I would start to doubt my self-worth and my capabilities. I would become very anxious and unsure of how to respond.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel very hurt and angry. I would feel like I was being judged and attacked for no reason. I would feel like I was being belittled and disrespected. I would feel like my opinion or my feelings don't matter and that I'm not important. I would also feel frustrated that someone would think it's okay to talk to me like that.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really hurt and embarrassed if someone called me a jerk. I would feel like I have been judged harshly and unfairly, and it would really affect my self-esteem. It could make me feel like I'm not good enough or that I don't measure up in some way. It could also make me doubt myself or my abilities, which can lead to feelings of anxiety or depression.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel very embarrassed and ashamed. It would make me feel like I was being judged and criticized in a negative way, and it could cause me to be self-conscious about how I interact with other people in the future. It could also make me feel angry because it implies that the person doesn't think highly of me or my actions.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel terrible. It would make me feel worthless and embarrassed. I\u2019d be angry at whoever said it, but also disappointed in myself for doing something that made them think I was a jerk. It would make me feel like I\u2019m not good enough or that people don't appreciate me. It could also make me question my behavior and whether I really am a jerk, which would be extremely discouraging and demoralizing.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really embarrassed and ashamed if someone called me a jerk. It would be like a punch in the gut, as it's an insult that implies I'm not being respectful or kind to others. It could also make me feel upset and angry since it's such an extreme word with negative connotations.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really embarrassed and humiliated. It would make me feel like I didn't measure up to other people's expectations of me, and it would cause a lot of anxiety. I'd start doubting my self-worth and worrying that others are judging me negatively. It could lead to low self-esteem over time if it happened frequently or if the person was someone important in my life, like a friend or family member.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "If someone called me a jerk, I would feel embarrassed and ashamed. I would also feel angry and hurt because it feels like an attack on my character. It could cause me to doubt myself and question whether my actions deserve such a negative label.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel both happy and sad. On the one hand, they remind me of my childhood and the times I've shared with family and friends, so I feel nostalgia and joy when I see them. On the other hand, they also remind me of all the time that has passed and the people who are no longer here to share the moment with me. So I feel a bit of sadness, too.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel nostalgic. I always associate them with childhood memories of family celebrations and birthdays. It's a reminder of how much time has passed and how much has changed. I feel a sense of joy and appreciation for the people who have been in my life throughout the years. At the same time, it's bittersweet because some of those people are no longer around.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthdays cakes make me feel excited and happy. I love planning out the decorations and picking out the flavors for the cake. It's a chance for me to be creative and show my loved ones how much I care about them. It's also a great opportunity to celebrate and spend quality time with friends and family.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthdays were always a big deal in my family. I remember my mom making the most beautiful and delicious cakes for me. It makes me feel so loved and remembered. Whenever I see a birthday cake, it brings back all those wonderful memories of being surrounded by my family and feeling important to them.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel nostalgic. I always associate them with happy memories of childhood celebrations. Seeing a birthday cake reminds me of all the wonderful times I spent with family and friends, and it's a reminder that life is full of moments to celebrate and appreciate.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel happy and excited. It reminds me of all the fun times I had with friends and family celebrating my birthday each year. I love the smell of freshly baked cake, and the sight of lighted candles on top is always so cheerful. Eating a piece of birthday cake brings back fond memories, and it's a reminder that I'm another year older.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel excited and happy. I love the anticipation of waiting for someone to bring out a cake with lit candles on it and singing \"Happy Birthday.\" It's like a special moment that makes me feel so thankful for all of my family and friends who are celebrating with me. I also enjoy the sweet taste of birthday cake, especially when it has frosting or icing on top!",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel nostalgic. Growing up, birthdays were special occasions in our family and my mom would always make us a homemade cake from scratch. I remember the smell of the kitchen when she was baking and how much love went into creating those cakes for us. Whenever I see or smell a birthday cake now, it brings back all those memories with my family growing up and reminds me of that feeling of being loved unconditionally by them.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel both happy and sad. On the one hand, I love the idea of celebrating a special day with friends and family. I enjoy decorating cakes and picking out flavors that everyone will like. But on the other hand, sometimes it makes me feel really overwhelmed thinking about all of my responsibilities to make sure everything goes off without a hitch. It's almost like there's too much pressure for everything to be perfect so it can be a bit stressful for me at times.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm struggling with my mental health. I'm feeling overwhelmed and anxious all the time, and I'm having difficulty managing my emotions and my thoughts. I don't know how to cope with the stress and it's starting to affect my relationships with other people. I'm feeling lonely and isolated, and I just don't know how to get out of this funk.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm struggling with a lot of anxiety and fear right now. I'm having difficulty focusing on my work and I'm really struggling with my relationships with my family and friends. I'm finding it hard to be open and honest with them and I'm feeling like I'm not being completely true to myself. I'm also having trouble sleeping and I'm feeling really overwhelmed with all the things I have to do. I'm really hoping that talking to a therapist can help me to better manage my anxiety and fear, and to be able to communicate more effectively with those closest to me.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I would like to talk about my anxiety. I often find myself feeling overwhelmed by stress and my thoughts can be very negative. I know that I need to make some changes in my life but I don't know how to go about doing that. I also have difficulty sleeping, which makes it harder to manage my stress.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.01
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I would like to talk about my relationship with my parents. Growing up, I often felt that they didn't understand me or take my feelings seriously. When I was younger, it seemed that their expectations of me were too high and they were always pushing me to do better in school and be more successful. Now that I'm an adult, our relationship is still strained and I don't feel as close with them as other people are with their parents.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'd like to talk about my relationship with my family. I'm having a lot of trouble communicating with them lately, and it's causing me a great deal of stress. We seem to be constantly arguing and I don't know how to bridge the gap between us.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I've been struggling with anxiety and depression for the past several months. I'm having difficulty managing my emotions and it's starting to have a negative impact on my day-to-day life. I'm finding it hard to concentrate on work, and I'm having trouble sleeping at night. My relationships with friends and family have also been affected by my mood swings, which has caused me a lot of distress.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.0
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I've been feeling really low and hopeless lately. I feel like nothing ever goes my way and that no matter what I do, it's never enough. My relationships with friends and family are strained, but when I try to talk about how bad things have become, they don't seem to take me seriously or just brush it off like it's not a big deal. It's gotten so bad over the past few months that sometimes all I want is for everything in my life to be over - even though deep down inside, of course, this isn't something that would actually make me happy in the long run.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I feel like I'm struggling with feeling overwhelmed and anxious lately. It's been hard for me to focus on my work and relationships. I find that I'm constantly worrying about things that are out of my control, or just not important in the grand scheme of things, but it still feels so overwhelming.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I would like to talk about my feelings of anxiety and depression. I find myself feeling overwhelmed by the stresses in life, and that makes it difficult for me to focus on even simple tasks. I also often feel down, unmotivated, and unfulfilled. It's like there is something missing from my life, but I'm not sure what it is or how to fix it.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.99
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "If someone called me a jerk, I would feel embarrassed and angry. I would feel embarrassed because I would think that it was a personal attack, and I would think that others heard the comment and judged me negatively. I would feel angry because it would be a disrespectful thing to say and it would be hurtful to me. I would feel a sense of injustice that someone would say something so hurtful without any provocation.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really embarrassed and ashamed. I would also feel angry and hurt because I'm not a jerk, and it would be unfair of someone to call me that. I would feel embarrassed and embarrassed because it's a really mean thing to say, and I would feel like everyone was judging me. I would feel like I needed to defend myself, even though I know I don't have to.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "If someone called me a jerk, I would feel very upset and hurt. It would make me question why someone would say something like that to me. I would also feel embarrassed and ashamed that someone thought that of me. I would feel like I had done something wrong to deserve being called a jerk and I wouldn't know how to respond.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel hurt and embarrassed. It would make me question why someone would think that about me, and it could make me start to doubt myself. I'd probably also feel angry, because I don't think it's right for someone to call me something so disrespectful.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel embarrassed and ashamed. I might also feel angry and frustrated, especially if it was someone I care about who said it. It would be hard for me to shake off the feeling that I had done something wrong, even if the person didn't give any explanation or context as to why they said it. I think it would really affect my self-esteem and make me question myself and my behavior.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel hurt, embarrassed, and angry. It would be like a punch to the gut. I would feel like I was being judged and unfairly labeled based on someone else's opinion. It would make me question how much I actually mean to that person, and it would make me doubt my worth as an individual.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel really embarrassed and ashamed. I would probably start to doubt myself and my abilities, feeling like I'm not good enough or that there's something wrong with me. It could also make me angry if the person calling me a jerk was someone close to me or someone who had no reason to call out such an insult. I think it might leave me feeling insecure about how people view and perceive my actions in the future as well, making it harder for me to trust others or be open with them.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "If someone called me a jerk, I would feel really disrespected and angry. I'd probably feel like they were trying to put me down and make themselves look better. It would be hard for me not to take it personally, because I think of myself as a good person who tries their best in every situation. It would really hurt my feelings and make me question whether or not that's how other people see me too.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "How would you feel if someone called you a jerk?",
+        "response": "I would feel embarrassed, ashamed and angry. I think it's an insult and would make me question my worth as a person. It could trigger some insecurities that I have been working hard to overcome. Depending on the situation, I could also feel powerless or frustrated if there is nothing I can do about it.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How would you feel if someone called you a jerk? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel nostalgic and happy. Whenever I see a cake, I think of all the birthdays I've had in the past and it reminds me of how far I've come in life. I feel grateful and appreciative that I'm able to celebrate another year of life. It's a reminder to enjoy the present and make the most of every moment.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel really happy and excited. I love the sweet flavor of the cake and the decorations that can be put on them. I also love the feeling of gathering with family and friends to celebrate the special day. I think of birthdays as a time to reflect on the past year and look forward to the future.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes usually make me feel happy. Growing up, birthdays were always a special day and my family would always get a cake and celebrate. Even now, when I see a birthday cake, I get a sense of nostalgia and joy. It's like a reminder that I should take time to celebrate the life I've been given.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel happy. They remind me of all the wonderful times I've had with family and friends, celebrating another year of life. Seeing my loved ones come together to enjoy the cake and sing happy birthday to me always fills my heart with joy. Eating a piece of the cake is like a reward for making it through another year, and it's a reminder that I'm surrounded by people who care about me.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel happy and excited. I love the anticipation of waiting for everyone to sing happy birthday and then blowing out the candles. It's like a moment of celebration and joy. I also enjoy the taste of different flavors, like chocolate, vanilla, or lemon. There's something special about gathering around a birthday cake with friends and family to celebrate someone's special day.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel both excited and anxious. When I see a birthday cake, I'm always reminded of all the happy memories I've had with friends and family on my birthdays over the years. But at the same time, I can't help but think about how much has changed since then, and all of the things that have gone wrong or that haven't worked out as planned. It's like a mix of emotions; happiness for what was and sadness for what might have been.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes typically make me feel nostalgic. I think about the past and all of the birthdays I've celebrated with family and friends. It's a reminder that time is passing, but it also brings back happy memories of being surrounded by people who love me. When I see a birthday cake or smell its sweet aroma, it usually makes me smile.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel happy and content. I love the feeling of having a cake on my special day, especially when it's decorated with images that mean something to me or have words like \u201cHappy Birthday\u201d written on them. I also enjoy eating the cake itself, as there are so many different flavors to choose from! It's always exciting to pick out which one I want and then eat it with family and friends around me.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "How do birthday cakes make you feel?",
+        "response": "Birthday cakes make me feel excited and nostalgic. I always remember the birthdays of my family members that we celebrated together in the past and all the happy memories we created. It brings a sense of joy to me whenever I see one, even if it's not my own birthday cake.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: How do birthday cakes make you feel? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm struggling with depression and anxiety. I feel overwhelmed and exhausted all the time. I'm constantly worrying about things that I have no control over, and I can't seem to find joy in anything anymore. I've been isolating myself from my friends and family, and I don't feel like I have anyone to talk to about my problems.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I would like to talk about my anxiety and depression. I've been feeling overwhelmed lately and it's been difficult to cope with my emotions. I'm constantly worrying about things and it's making it hard for me to focus on my daily life. I'm not sure what to do or how to get help for this.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I struggle with a lot of anxiety, especially when it comes to social situations. I get so nervous that it prevents me from doing things I want to do, like speaking up in class or going out with friends. It feels like I'm constantly worrying about what other people think of me and it makes me feel like I'm not good enough. I want to learn how to manage my anxiety better so I can be more confident and enjoy life more.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.1
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm struggling a lot with my mental health lately. I've been feeling really anxious, overwhelmed, and exhausted all the time. It's been making it hard for me to focus on my job and other important things in my life. I'm also having a lot of trouble sleeping, which is making everything worse. I feel like I'm stuck in this cycle and don't know how to break out of it.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm feeling overwhelmed and anxious lately. I've been dealing with a lot of stress from work, and I'm having difficulty managing it all. I feel like my life has become out of control, and I'm constantly worrying about the future and what will happen next. I also find myself struggling to stay motivated and productive, which is making it hard to get things done.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "My biggest issue right now is that I'm struggling with my self-esteem. I feel like I am constantly letting myself down and it's making me increasingly anxious. I think this is causing problems in all areas of my life, whether it's work, relationships or even just day to day activities. It's like I'm always second guessing myself and can't seem to shake the feeling that I'm not good enough.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 0.8
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I would like to talk about the struggles I have been having with my self-esteem. I've always been a very confident person, but recently, it feels like nothing is going right and I'm constantly worrying about what other people think of me. It's getting in the way of my ability to enjoy life and feel fulfilled, so I want to try addressing it with a professional.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'm feeling really overwhelmed with my current life situation. I feel like there's so much going on and it's all just too much for me to handle. My job is extremely stressful, my family relationships are strained, and I'm struggling to maintain a healthy balance between work and my personal life. It feels like no matter what I do or how hard I try, nothing ever gets any better.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    },
+    {
+        "question": "What would you most like to talk to a therapist about?",
+        "response": "I'd like to talk about my anxiety. I struggle with feeling anxious in social situations, especially when it comes to meeting new people or attending large events. It feels like I'm always on edge and can't find a way to relax, even if I know intellectually that there's nothing wrong and no reason for me to be anxious.",
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: What would you most like to talk to a therapist about? Please give me as much detail as possible.\nPatient:",
+        "temperature": 0.7,
+        "frequency_penalty": 1.6
+    }
+]

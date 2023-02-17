@@ -63,7 +63,7 @@ def get_tuned_params(path: str = "") -> List[Dict[str, Any]]:
         for each `tune_params`, substitute the value in `base_params` with the values 
         while keeping the rest of the values the same."""
 
-    base_params = {"model":             "text-ada-001",
+    base_params = {"model":             "text-davinci-003",
                    "max_tokens":        128,
                    "stop":              STOP_SEQ,
                    "n":                 8,
@@ -72,7 +72,7 @@ def get_tuned_params(path: str = "") -> List[Dict[str, Any]]:
                    "frequency_penalty": 1.0,
                    "presence_penalty":  1.0}
 
-    tune_params = {"temperature":       [0.1, 0.5, 1],
+    tune_params = {"temperature":       [0.1, 0.5, 1.0],
                    "top_p":             [0.5, 0.7, 0.9],
                    "frequency_penalty": [0.0, 0.5, 1.0, 1.5],
                    "presence_penalty":  [0.0, 0.5, 1.0, 1.5]}
