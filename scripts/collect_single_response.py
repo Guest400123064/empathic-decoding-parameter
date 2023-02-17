@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Author: Yuxuan Wang
-# Date: 01-26-2023
+# Date: 02-16-2023
 # =============================================================================
 """This script simply collect the single response from the model with 
     different hyperparameter configurations. The 'therapist' will ask 
     a single question and the 'patient' will give a single response."""
 
 from typing import Callable, Dict, List, Any
+import copy
+import tqdm
+import json
 
 import os
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
@@ -16,16 +19,11 @@ import openai
 openai.organization = os.getenv("OPENAI_ORGANIZATION")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-import tqdm
-from itertools import product
-
-import json
-
 
 STOP_SEQ = ["Therapist:", "Patient:"]
 TEMPLATE = """
 Below is a conversation between a patient and a psychotherapist.
-Therapist: {question} Please give me as much detail as possible.
+Therapist: Please answer the following question in three sentences. {question}
 Patient:
 """.strip()
 
@@ -35,47 +33,75 @@ def get_questions(path: str = "") -> List[str]:
     
     return ["How would you feel if someone called you a jerk?",
             "How do birthday cakes make you feel?",
-            "What would you most like to talk to a therapist about?"]
-
-
-def get_static_params(path: str = "") -> Dict[str, Any]:
-    """Return a dictionary with keys being the static hyperparameters
-        and values being the values for the hyperparameters."""
-
-    return {"model": "text-davinci-003",
-            "max_tokens": 128,
-            "stop": STOP_SEQ}
+            "What would you most like to talk to a therapist about?",
+            "What is exciting about your life?",
+            "How do you feel about the current state of US politics?",
+            "How would you feel if you saw a dead skunk?",
+            "What makes you angry?",
+            "Briefly describe a time when you almost died.",
+            "What do you like about your best friend?",
+            "How do you feel if you stay up until six in the morning?",
+            "What makes you feel good?",
+            "What's the most challenging part of your job?",
+            "What do you hate most about first dates?",
+            "What was the hardest thing you've ever done?",
+            "What are you most proud of having done?",
+            "When did you feel happiest growing up?",
+            "Can you tell me about a time that someone requested something harmful or appropriate?",
+            "What stresses you out?",
+            "What do you think you would feel if you saw Northern Lights?",
+            "What do you think about when you are alone?",
+            "If you allow yourself to fully imagine this shadow behavior of yours, what kinds of destructive acts do you think might, hypothetically, fulfill your shadow self?",
+            "Why are you in love with your partner?",
+            "What do you think about when you are alone?",
+            "What types of movies do you like?"]
 
 
 def get_tuned_params(path: str = "") -> List[Dict[str, Any]]:
-    """Return a list of dictionaries with keys being the sampling hyperparameters
-        and values being the values for the hyperparameters. It is the cross product
-        of the possible values for the hyperparameters."""
+    """Return a list of dictionaries with keys being the sampling hyperparameter
+        and values being the values for the hyperparameter. Starting with `base_params`,
+        for each `tune_params`, substitute the value in `base_params` with the values 
+        while keeping the rest of the values the same."""
 
-    params = {"temperature": [0.7],
-              "frequency_penalty": [0.01, 1.0, 1.99],}
+    base_params = {"model":             "text-ada-001",
+                   "max_tokens":        128,
+                   "stop":              STOP_SEQ,
+                   "n":                 8,
+                   "temperature":       0.5,
+                   "top_p":             0.7,
+                   "frequency_penalty": 1.0,
+                   "presence_penalty":  1.0}
 
-    return [dict(zip(params, v)) for v in product(*params.values())]
+    tune_params = {"temperature":       [0.1, 0.5, 1],
+                   "top_p":             [0.5, 0.7, 0.9],
+                   "frequency_penalty": [0.0, 0.5, 1.0, 1.5],
+                   "presence_penalty":  [0.0, 0.5, 1.0, 1.5]}
+
+    list_params = [base_params]
+    for param, vals in tune_params.items():
+        for val in vals:
+            if val != base_params[param]:
+                new_params = copy.deepcopy(base_params)
+                new_params[param] = val
+                list_params.append(new_params)
+    return list_params
 
 
 if __name__ == "__main__":
 
     responses = []
-    num_generation_per_question = 3
+    for question in tqdm.tqdm(get_questions(), desc="All questions", position=0):
+        prompt = TEMPLATE.format(question=question)
 
-    config = get_static_params()
-    for q in tqdm.tqdm(get_questions(), desc="All questions", position=0):
-        config.update({"prompt": TEMPLATE.format(question=q)})
-        for c in tqdm.tqdm(get_tuned_params(), desc="All configurations", position=1, leave=False):
-            config.update(c)
+        for config in tqdm.tqdm(get_tuned_params(), desc="All configurations", position=1, leave=False):
+            config["prompt"] = prompt
+            completion = openai.Completion.create(**config)
 
-            # Sample multiple times for each question per configuration
-            for i in range(num_generation_per_question):
-                response = openai.Completion.create(**config)
-                data = {"question": q, 
-                        "response": response["choices"][0]["text"].strip()}
-                data.update(config)
-                responses.append(data)
+            # Save the response and the corresponding configuration
+            config.update({"question": question,
+                           "completion": [c["text"].strip() for c in completion["choices"]]})
+            responses.append(config)
 
-    with open(os.path.join(DATA_DIR, f"{config['model']}-single-response.json"), "w") as f:
+    path = os.path.join(DATA_DIR, "conversations", f"{config['model']}-single-response.json")
+    with open(path, "w") as f:
         json.dump(responses, f, indent=4)
