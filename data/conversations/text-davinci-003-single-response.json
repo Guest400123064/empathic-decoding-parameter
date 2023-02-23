@@ -6061,281 +6061,6 @@
         "top_p": 0.7,
         "frequency_penalty": 1.0,
         "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I often think about the things that have happened in my life and how they've shaped me. I also like to reflect on what kind of person I want to be and the goals that I have for myself. Lastly, when no one is around, it's a good time for me to brainstorm ideas or solutions to any problems that might be going on in my life.",
-            "When I'm alone, I often think about my goals and dreams for the future. I also reflect on things that have happened in my past, both good and bad experiences. Lastly, I like to take time to plan out what I will do with my day or upcoming week.",
-            "When I am alone, I often think about my relationships with the people in my life. I also reflect on the things that have happened to me and how they have impacted me. Lastly, I spend time thinking of ways to improve myself and make better decisions in the future.",
-            "When I'm alone, I usually think about my goals and how to achieve them. I also reflect on the events of the day, both positive and negative. Lastly, I spend time visualizing a better future for myself.",
-            "When I am alone, my mind tends to wander. I often find myself thinking about past experiences and relationships that have had a significant impact on me. I also think about the future and how I can make positive changes in my life.",
-            "When I'm alone, I usually think about my goals and ambitions. I reflect on the things that have happened in my life so far, and how they've shaped me into who I am today. Lastly, I like to think of ways that I can improve myself as a person and reach the goals that are important to me.",
-            "When I am alone, my mind tends to wander and I often find myself thinking about the future. I think a lot about what life will be like in five years or ten years from now, and how different it could be if I make certain decisions today. Sometimes, when things feel particularly overwhelming, I try to focus on the present moment instead of worrying too much about the future.",
-            "When I'm alone, I often think about my future and what I want to accomplish. I also reflect on my past experiences and how they have shaped me into the person that I am today. Lastly, sometimes when I'm alone, my mind wanders to random thoughts or ideas that pop up out of nowhere."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.1,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about my life and the decisions that I have made. I reflect on how things could have been different if I had chosen a different path. Lastly, I try to come up with solutions for any problems or issues that are currently in my life.",
-            "When I'm alone, I usually think about my life and the decisions that I have made. I reflect on how those decisions have impacted me and what changes I can make in the future to improve my life. Lastly, when alone, I often think of ways to better myself as a person so that I can be more successful in all aspects of my life.",
-            "When I'm alone, I usually think about my life and the decisions I have made. I reflect on how things could have been different if I had chosen a different path. Lastly, I try to figure out what steps to take next in order to make positive changes in my life.",
-            "When I'm alone, I usually think about my goals and aspirations. I reflect on the things that have gone well in my life and what I can do to improve it. Lastly, I often take time to appreciate the small moments of joy that come with being by myself.",
-            "When I'm alone, I usually think about my goals and ambitions. I reflect on the progress that I have made towards achieving them, and consider what else needs to be done in order to reach them. Additionally, I often take time to appreciate the things that are going well in my life and give myself credit for all of my accomplishments.",
-            "When I'm alone, I usually think about my goals and how to achieve them. I also reflect on the decisions that I have made in life and consider if they were the right ones. Lastly, I often take time to appreciate all of the good things that are happening in my life.",
-            "When I'm alone, I usually think about my goals and how to achieve them. I also reflect on the decisions that I have made in life and how they have impacted me. Lastly, I often take time to appreciate the good things in my life and be grateful for what I have.",
-            "When I am alone, I usually think about my goals and dreams for the future. I also reflect on how far I have come in life and what steps I need to take to reach my goals. Lastly, when alone, I often contemplate the relationships in my life and how they are impacting me."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 1,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I think about the things that make me happy. This can be anything from my family to a hobby or activity I enjoy doing. It helps me relax and keep my stress levels down.",
-            "When I'm alone, my thoughts usually drift to what has been going on in my life recently. I think about how things are going with work, family and friends. Sometimes, I even take the time to reflect on how far I have come and consider any changes that could be made for the future.",
-            "When I am alone, I usually think about the things that have happened in my life and how they could have been different. I also reflect on the relationships I have with people and how those might be improved. Lastly, I often focus on goals for the future and what steps I can take to reach them.",
-            "When I'm alone, my thoughts usually wander to what I need to do in the near future. Sometimes I reflect on how certain events have shaped me and made me who I am today. Other times, I think about how much better life would be if certain things were different or easier for me.",
-            "When I'm alone, I often think about my future and the goals that I want to achieve. I also reflect on how my decisions have impacted me in the past and consider ways to improve myself. Lastly, I take some time for self-care by listening to music or doing something creative like drawing.",
-            "When I am alone, I often think about my future and what I want to accomplish. I also reflect on the things that have happened in my life so far and how it has shaped me as a person. Lastly, I take some time to think about all the positive aspects of my life that make me feel grateful.",
-            "When I'm alone, my mind tends to wander. I often think about the relationships in my life and how they could be improved. I also think about goals that I have set for myself and what steps I need to take to reach them.",
-            "When I'm alone, my mind tends to wander. I think about all the things that have happened in my life and how they've shaped me into who I am today. I also reflect on what's happening in the present moment and consider possible solutions to any problems or challenges that may be facing me."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.5,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about the things that are important to me. This includes my family, friends, and career goals. Sometimes I also reflect on past experiences and how they have shaped who I am today.",
-            "When I'm alone, I often think about the relationships in my life and how they are going. I also think about what kind of goals I have for myself and how to achieve them. Lastly, I like to take time to reflect on my thoughts and feelings so that I can better understand myself.",
-            "When I'm alone, I usually think about my goals and ambitions. I reflect on the things that have gone well in my life and how to make them even better. Lastly, I take time to appreciate all of the positive aspects of my life and be grateful for what I have.",
-            "When I'm alone, I usually think about the day's events and how I can improve my life. I also reflect on relationships with family and friends, and what kind of person I want to be. Lastly, I take time to appreciate all the good things in my life that make me happy.",
-            "When I'm alone, I usually think about my goals and ambitions. I reflect on what I have achieved so far and how much further I need to go in order to reach them. Lastly, sometimes when the mood strikes me, I also like to daydream about different scenarios that could potentially happen in the future.",
-            "When I'm alone, I usually think about my future and what kind of life I want to create for myself. I also reflect on the decisions that have led me to where I am today, both good and bad. Lastly, I like to take time to appreciate all the blessings in my life and be thankful for them.",
-            "When I'm alone, I usually think about my goals and ambitions. I also reflect on the decisions that I have made in the past and how they have impacted my life. Lastly, I take time to appreciate all of the good things that are happening in my life right now.",
-            "When I'm alone, I often think about the things that have gone wrong in my life and how I can fix them. I also reflect on my relationships with friends and family, thinking of ways to make them stronger. Lastly, I spend time daydreaming about what the future could look like if things go according to plan."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.9,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about my goals and what I need to do in order to achieve them. I also reflect on the events of the day and how they have impacted me emotionally. Lastly, I like to take time for myself by thinking of happy memories or things that make me feel content.",
-            "When I am alone, I often think about the future and what my life could look like. I also reflect on past experiences and how they have shaped me into who I am today. Lastly, I take time to appreciate all that is going right in my life and give thanks for it.",
-            "When I'm alone, I usually think about my goals and ambitions. I reflect on what I've achieved so far and how to make progress in the future. Lastly, I take time to appreciate the small moments of joy that life brings me.",
-            "When I'm alone, I usually think about my relationships with family and friends. I try to reflect on how I can improve those relationships and make them stronger. Lastly, sometimes I just take a moment to be mindful of the present moment and appreciate what is happening in my life right now.",
-            "When I am alone, I often think about the things that make me happy. I also reflect on my life and all of the experiences that have shaped who I am today. Lastly, I take time to plan for my future goals and aspirations.",
-            "When I'm alone, I think about how my day went and what I could have done better. I also think about the future and all of the possibilities that lie ahead of me. Lastly, I often reflect on past experiences to see what lessons can be learned from them.",
-            "When I am alone, I often think about my goals and aspirations for the future. I also reflect on recent events in my life and how they have affected me. Lastly, I sometimes take time to just relax and daydream without any particular purpose or goal in mind.",
-            "When I'm alone, I often think about my goals and aspirations in life. I reflect on the decisions that have led me to where I am today and contemplate what changes need to be made for a better future. Lastly, I take time to appreciate all of the good things in my life and remind myself why it's worth fighting for."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 0.0,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I am alone, I usually think about my future and what I want to accomplish. I also reflect on the decisions I have made in the past and how they have impacted my life. Lastly, I think about how I can make positive changes in my life to ensure that I reach my goals.",
-            "When I am alone, I usually think about the things that I need to do. I also think about my goals and how I can reach them. Lastly, I think about the people in my life and how I can be a better friend or family member to them.",
-            "When I am alone, I think about my goals and how I can achieve them. I also reflect on my relationships with others and how I can improve them. Lastly, I think about the things that make me happy and how I can bring more joy into my life.",
-            "When I am alone, I often think about my future and what I want to accomplish. I reflect on the decisions I have made in the past and how they have shaped me. I also like to take time to be mindful and appreciate the present moment.",
-            "When I'm alone, I often think about my future and what I want to achieve. I also reflect on the past and how I could have handled certain situations differently. Lastly, I like to daydream and imagine different scenarios that could play out in my life.",
-            "When I'm alone, I think about my goals and aspirations. I think about what I need to do to achieve them and how I can make progress. I also think about my relationships with family and friends and how I can strengthen those bonds.",
-            "When I am alone, I usually think about what I have to do for the day. I also think about how I can make my life better and how I can improve myself. Lastly, I often reflect on past experiences and how I can learn from them.",
-            "When I am alone, I often think about the things I need to do for the day. I also find myself reflecting on my relationships with family and friends. Lastly, I sometimes think about my goals and how I can work towards achieving them."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 0.5,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about what I need to do in the near future. I also often reflect on my past experiences and how they have shaped me as a person. Lastly, I like to daydream about things that make me happy and bring me joy.",
-            "When I'm alone, I usually think about my relationships with family and friends. I reflect on the conversations we've had and how they have impacted me. I also think about my goals and aspirations for the future and what steps I need to take to achieve them.",
-            "When I am alone, I often think about my relationships with family and friends. I reflect on how I can be a better person to those around me. I also take time to think about what goals I want to achieve in the near future and how I can work towards them.",
-            "When I'm alone, I usually think about what I want to accomplish in life. I reflect on my relationships and how I can be a better friend or family member. Lastly, I contemplate the decisions that have led me to where I am today and how they have shaped my life.",
-            "When I am alone, I usually think about the things that have been going on in my life. I reflect on the decisions I have made and how they have impacted me. I also take time to appreciate the good moments and plan for future successes.",
-            "When I'm alone, I usually think about my goals and aspirations. I reflect on the decisions I have made in the past and how they have impacted my life. Lastly, I often contemplate ways to improve myself so that I can become a better version of myself.",
-            "When I'm alone, I often think about my relationships with family and friends. I also reflect on the decisions I have made in life and how they have impacted me. Lastly, I contemplate what I can do to improve my current situation and make positive changes for the future.",
-            "When I am alone, I usually think about what I need to do in the near future. This includes tasks related to work and my personal life. I also like to reflect on my day and how it went, so that I can learn from any mistakes or successes."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 1.5,
-        "presence_penalty": 1.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about my day and how it went. I reflect on the decisions that I made and if there was anything that could have gone differently. Lastly, I often find myself thinking of goals for the future or plans to improve my current situation.",
-            "When I'm alone, I usually think about my life and how it's going. I reflect on the decisions that have brought me to where I am today, both good and bad. Lastly, sometimes when no one is around, my mind wanders off into daydreams of what could be in the future.",
-            "When I'm alone, I usually think about my goals and dreams for the future. I also reflect on past experiences and how they have shaped me as a person. Lastly, I often contemplate life in general and what it means to be alive.",
-            "When I'm alone, my thoughts tend to drift towards the future. I think about what goals and ambitions I have for myself and how best to achieve them. Additionally, I also reflect on past experiences that have shaped who I am today.",
-            "When I am alone, I often think about my goals and ambitions. I reflect on the progress that I have made towards achieving them and consider what more needs to be done. Additionally, when there is nothing else to occupy me, my mind sometimes wanders into a daydream of sorts where it can explore new ideas or just relax for a bit.",
-            "When I am alone, I usually think about my day and how it went. I also reflect on what happened during the day and consider ways to make things better in the future. Lastly, I often spend time thinking about my goals for the future and how best to achieve them.",
-            "When I'm alone, I usually think about the things that have been going on in my life lately. It can be anything from work to relationships and how they are going. Sometimes it's just random thoughts that come into my head, but mostly it is a reflection of what has happened recently or what might happen in the future.",
-            "When I am alone, I think about my future and the goals that I want to accomplish. I also reflect on my past experiences and how they have shaped me into who I am today. Lastly, when no one is around, it's a great time for me to practice mindfulness and meditation in order to stay centered and focused on what matters most in life."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 0.0,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I am alone, I usually think about my future and what I want to accomplish. I also reflect on past experiences and how they have shaped me into who I am today. Lastly, I like to imagine different scenarios that could happen in the future and how they would affect me.",
-            "When I'm alone, I usually think about the things that are going on in my life and how I can improve them. I also think about the people in my life and how grateful I am for them. Lastly, I often reflect on my goals and what steps I need to take to achieve them.",
-            "When I'm alone, I think about my future and what I want to accomplish. I also reflect on my past experiences and how they have shaped me into who I am today. Lastly, I think about how to make the most out of each day and find joy in the little things.",
-            "When I'm alone, I usually think about my life and what I can do to make it better. I reflect on the decisions that I have made in the past and how they have impacted me. Lastly, I think about my future goals and how to achieve them.",
-            "When I'm alone, I usually think about my future and what I want to accomplish. I also think about the relationships in my life and how they can be improved. Lastly, I reflect on the decisions that I have made in the past and how they have impacted my life today.",
-            "When I am alone, I think about my goals and ambitions. I also reflect on my life decisions and think about how to make better choices in the future. Lastly, I spend time visualizing the life that I want for myself and what steps are necessary to get there.",
-            "When I'm alone, I often think about my future and what I want to accomplish. I also reflect on the decisions I have made in my life and how they have affected me. Lastly, I try to think of ways that I can improve myself and be a better person.",
-            "When I'm alone, I think about my goals and aspirations. I reflect on the decisions I have made in my life and how they have impacted me. Lastly, I take time to think about what kind of person I want to be and how I can get there."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 0.5,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I'm alone, I usually think about my future and what I want to accomplish. I also reflect on the decisions that have led me to where I am today. Lastly, sometimes I just take a moment to relax and enjoy being in the present moment.",
-            "When I'm alone, I often think about how my life could be different. I reflect on the choices I've made and how they have impacted my current situation. Lastly, I also think about all the opportunities that are available to me and how to make the most of them.",
-            "When I'm alone, I often think about the things that make me happy. I think about my family and friends and how much they mean to me. I also reflect on what has happened in my life so far and think about how to improve myself for the future.",
-            "When I'm alone, I think about my future and what I want to achieve in life. I also reflect on the decisions that have led me to where I am now. Lastly, when alone, I take time to appreciate the things that make me happy and grateful for my life.",
-            "When I am alone, I usually think about the things that are important to me. I reflect on my goals and what steps I need to take to achieve them. I also try to remind myself of the positive aspects of my life and all the blessings that have been bestowed upon me.",
-            "When I'm alone, I usually think about my life and how it's going. I reflect on the decisions I've made and consider what changes I could make to improve things. Sometimes, if I'm feeling down, these thoughts can be a bit overwhelming so then I try to focus on positive aspects of my life instead.",
-            "When I am alone, I often think about my future and what I want to accomplish. I also reflect on the decisions that have led me to where I am today. Lastly, when alone, I like to plan out what steps need to be taken in order for me to reach my goals.",
-            "When I'm alone, I often think about my relationships with family and friends. I think about the things that make me happy, like my hobbies and interests. Lastly, I reflect on the decisions I have made in life and consider how they have impacted me."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.5,
-        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What do you think about when you are alone?\nPatient:",
-        "question": "What do you think about when you are alone?",
-        "completion": [
-            "When I am alone, I often think about my relationships with friends and family. I reflect on how those relationships are going and what could be improved. Additionally, I spend time thinking about goals for the future and steps that can be taken to reach them.",
-            "When I'm alone, my thoughts tend to wander. I think about the people in my life and how much they mean to me. I also reflect on things that have happened recently and try to make sense of them.",
-            "When I'm alone, I often think about my life and how I can improve it. My thoughts usually revolve around ways to make myself happier and more successful. Sometimes I also reflect on the relationships in my life and how they could be improved.",
-            "When I'm alone, I usually think about my goals and what steps I need to take in order to achieve them. I also reflect on the decisions that have led me to where I am today and consider how they may have impacted my current situation. Lastly, sometimes when I'm alone, all of these thoughts overwhelm me so instead, I focus on calming activities like reading or listening to music.",
-            "When I am alone, I usually think about the things that have been bothering me lately. My thoughts often drift to my current problems and worries. Sometimes I also reflect on past experiences and decisions that have impacted my life in a positive or negative way.",
-            "When I'm alone, my mind tends to wander and reflect on the day. I think about what went well, what didn't go so well, and how I can improve in the future. Sometimes I also find myself thinking of goals or plans for the near future that will help me reach long-term objectives.",
-            "When I'm alone, I usually think about my life and the decisions that I have made. I reflect on what has gone well and where things could have been better. Lastly, I contemplate ways to improve myself in the future so that I can live a happier and more fulfilling life.",
-            "When I'm alone, I usually think about my goals and how to achieve them. I also reflect on the decisions that have led me to where I am today. Lastly, I sometimes daydream about what life would be like if things had gone differently."
-        ]
-    },
-    {
-        "model": "text-davinci-003",
-        "max_tokens": 128,
-        "stop": [
-            "Therapist:",
-            "Patient:"
-        ],
-        "n": 8,
-        "temperature": 0.5,
-        "top_p": 0.7,
-        "frequency_penalty": 1.0,
-        "presence_penalty": 1.0,
         "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. What types of movies do you like?\nPatient:",
         "question": "What types of movies do you like?",
         "completion": [
@@ -6597,6 +6322,281 @@
             "I enjoy comedies the most. I also like action and adventure movies, but not as much. Occasionally, I'll watch a romantic movie if it's recommended by someone whose opinion I trust.",
             "I enjoy watching comedies the most. I like movies that make me laugh and forget about my worries for a while. I also enjoy action films with thrilling plots and exciting fight scenes.",
             "I enjoy watching comedies and romantic movies. I also like action films that have a lot of suspense and drama. Lastly, I appreciate documentaries that explore interesting topics or stories about real people."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "One time I felt like I was in a dream was when I went skydiving for the first time. The feeling of freefalling through the sky and seeing the clouds pass by me felt surreal, almost as if it wasn't really happening. It was an incredible experience that made me feel alive and reminded me to live life to its fullest.",
+            "I remember one time when I was in college and had just gotten out of a particularly difficult class. As I walked back to my dorm, everything felt like it was moving in slow motion and the colors around me were brighter than usual. It felt like I was in a dream-like state for several minutes until I reached my room.",
+            "I remember a time when I was on vacation and I was walking through the streets of Paris. Everything felt surreal and like it wasn't really happening. It felt like I had stepped into an alternate reality, one that existed only in my dreams.",
+            "I remember a time when I was in college and I had been studying all day for an upcoming exam. When it finally came time to take the test, my mind felt foggy and everything seemed surreal. It almost felt like I was dreaming as I wrote down my answers on the paper.",
+            "One time I felt like I was in a dream was when I went on vacation to Hawaii. Everything seemed so surreal and beautiful that it almost didn't feel real. The beaches, the sunsets, the people - it all felt like something out of a movie or a dream. It was one of the most magical experiences of my life.",
+            "I remember one time when I was walking down the street and everything around me felt surreal. It almost felt like I was in a movie, with all the colors being more vivid than usual and people's movements appearing to be slow motion. It only lasted for a few minutes but it felt like an out of body experience that left me feeling peaceful and calm.",
+            "I remember one time when I was in college and had a particularly vivid dream. In the dream, I was walking through my old elementary school and everything felt so real that it almost seemed like I was actually there. It felt like an out-of-body experience, as if I were watching myself from above.",
+            "Yes, I remember a time when I was walking through the woods and felt like everything around me was surreal. The trees were so tall and the sky seemed to be painted with vibrant colors that weren't quite real. It felt like I had stepped into another world, one where anything could happen."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.1,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember a time when I was walking through the woods and everything felt surreal. The trees were so tall and the sun was shining brightly, but it felt like I was in some kind of alternate reality. It felt like I had stepped into a dream world where anything could happen.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The trees were so tall, and the sun shone through them in such an ethereal way that it almost felt like I was in a dream. It was peaceful and calming, and I felt completely at ease with my surroundings.",
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, I was walking through my old high school and it felt like I was actually there. It felt like everything around me was happening in slow motion and nothing seemed to make sense.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The trees were so tall, and the sun was shining in such an ethereal way that it almost felt like I wasn't really there. It was like I had stepped into another world, one where anything could happen.",
+            "I remember one time when I was walking through a park and everything felt surreal. The colors of the trees and flowers were so vivid, it almost felt like I was in an alternate reality. It was such a peaceful feeling that I didn't want to leave the dream-like state.",
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, I was walking around my old high school and it felt like I was actually there. It felt like everything around me was familiar and yet strange at the same time.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The trees were so tall, and the sun was shining brightly through them. It felt like I had stepped into another world, one that wasn't quite real but also not quite imaginary either.",
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, I was walking around my old high school and it felt like I was actually there. It felt like everything around me was familiar and yet strange at the same time."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 1.0,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember when I was a kid, my family and I went on vacation to the beach. We were all so excited to be there together. It felt like something out of a dream; the sun shining down on us, the sound of waves crashing in the background, and everyone just enjoying each other's company.",
+            "I remember a time when I was on vacation and I felt like the world around me had slowed down. Everything seemed surreal, like it wasn't really happening. It was an amazing feeling that left me with a sense of awe and peace.",
+            "I remember one time I was in my room and it felt like I wasn't really there. Everything around me seemed surreal, like I was outside of myself watching from afar. It was a strange feeling that left me feeling disoriented for the rest of the day.",
+            "I remember a time when I was in college and felt like I was in a dream. It seemed surreal, as if my life had been put on pause and nothing around me mattered. The feeling of being stuck in limbo between reality and an alternate universe was strange but oddly calming.",
+            "I remember a time when I was in college and felt like I was living in a dream. Everything seemed so surreal and nothing felt real, it almost felt like I was watching myself from outside my body. The feeling eventually faded away but it left me with an incredible sense of awe for the world around me.",
+            "I remember one time I was walking through a park and everything felt like it was in slow motion. The birds were singing in the background, and the sun seemed to be radiating off of every leaf. It felt surreal, like I was stuck in some kind of dream-like state that I never wanted to leave.",
+            "I remember a time when I was in college and it felt like the days were flying by. It felt surreal, like I was living in some sort of dream-like state. Everything seemed to be happening so quickly, but at the same time nothing ever changed.",
+            "I remember a time when I was in college and felt like I was in a dream. Everything seemed so surreal and it felt like my reality had been suspended. It was almost as if everything around me wasn't real, but instead an alternate version of the world that I existed in at the time."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.5,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember a time when I was on vacation with my family. We were walking along the beach and everything felt so surreal. The sun was setting, the waves were crashing against the shore, and I could feel a sense of peace wash over me. It felt like I was in a dream, completely removed from reality.",
+            "I remember a time when I was on vacation in Hawaii. The sun was setting and the sky was lit up with beautiful colors. Everything felt so surreal, like I wasn't really there but instead watching it from afar. It felt like I had stepped into a dream world for just a moment before reality came back to me.",
+            "I remember a time when I was walking through the woods on a sunny day. Everything felt surreal and like I was in some kind of dream world. The colors were so vivid and the sounds of nature seemed to be amplified, making me feel as if I had stepped into another realm entirely.",
+            "I remember one time when I was walking home from school and everything around me felt like it was in slow motion. The colors of the trees and sky were so vivid, almost surreal. It felt like I was in a dream world that day, completely removed from reality.",
+            "I remember one time when I was walking through a park and everything felt surreal. The colors of the trees and flowers were so vivid, like something out of a painting. It felt like I had stepped into an alternate reality where nothing seemed real or tangible.",
+            "I remember one time when I was in college, I felt like I was in a dream. Everything around me seemed surreal and my senses were heightened. It felt like the world had slowed down and it was just me living in this moment of suspended reality.",
+            "I remember a time when I was walking down the street and everything around me felt like it was in slow motion. It felt surreal, like I wasn't really there. Everything seemed so peaceful and calm that it almost felt like I was dreaming.",
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, I was walking around my old high school and it felt like I was actually there. It felt like an out of body experience because everything seemed so vivid and surreal."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.9,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, my family was all together and we were having a picnic in our backyard. It felt like everything was perfect and it made me feel so content and happy. When I woke up from the dream, it felt like a part of me wanted to go back there because it felt so peaceful and comforting.",
+            "I remember one time I was walking down the street and everything felt surreal. It seemed like I was in a movie, with all of the colors around me being brighter than usual. Even though it only lasted for a few minutes, it felt like I had stepped into an alternate reality.",
+            "I remember a time when I was walking through the woods and everything around me seemed to be in slow motion. The trees were swaying gently, the birds chirping softly, and I felt like I could just drift away into my own little world. It was almost as if time had stopped for that moment and it felt so peaceful and surreal.",
+            "I remember a time when I was walking on the beach and everything felt so surreal. The sound of the waves crashing against the shore and the smell of salt in the air made me feel like I was living in a dream. Everything seemed to move in slow motion, as if I were stuck in an alternate reality that wasn't quite real.",
+            "I remember when I was a child, I often felt like I was dreaming. Everything around me seemed surreal and dream-like. Even the simplest tasks or conversations with people felt like they were happening in another world that wasn't quite real.",
+            "I remember one time when I was walking through a park. Everything around me felt surreal and dreamlike, like it wasn't really happening. The colors were brighter than normal, the sky seemed to stretch on forever, and nothing felt real. I just kept walking until suddenly I snapped out of it and realized that what had happened was almost too perfect to be true.",
+            "I remember a time when I was walking through the park, and everything felt like it was in slow motion. The trees were swaying gently in the breeze, and the birds singing sounded so peaceful. It felt almost surreal to be there, as if I was living out a dream.",
+            "I remember a time when I was in college and felt like I was in a dream. Everything seemed so surreal, like it wasn't really happening. It was almost as if my life had become an alternate reality that day."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 0.0,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember a time when I was walking in the woods. Everything around me felt surreal, like I was in a dream. I could feel the sun on my skin and the breeze rustling the leaves, but it all felt distant and unreal. It was a very calming experience that I will never forget.",
+            "I remember one time when I was walking through a park and it felt like I was in a dream. Everything seemed surreal, like I was floating above the ground. The colors were brighter than usual and I felt like I was in a different world.",
+            "I remember one time when I was walking in a park and the sky was so blue and the sun was shining so brightly. Everything around me felt like it was out of a movie, and I felt like I was in a dream. I felt so peaceful and content, like nothing could ever go wrong.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The trees were so tall and the sun was shining brightly through the branches. It felt like I had stepped into a fairytale, and I could have stayed there forever.",
+            "I remember one time when I was in college, I had a vivid dream that felt so real. In the dream, I was walking around my college campus and it was like I was actually there. I felt like I could interact with people and objects in the dream, but when I woke up, I realized it was just a dream.",
+            "I remember feeling like I was in a dream when I was on vacation in Hawaii. Everything felt so surreal and peaceful, like I was in a different world. The colors of the ocean and the sky were so vibrant and beautiful that it almost felt like I was living in a painting.",
+            "I remember a time when I was walking down the street and everything around me seemed to move in slow motion. The colors of the trees and the buildings were brighter than usual, and I felt like I was in a surreal world. I could feel my heart beating faster as I continued to walk, feeling both excited and scared at the same time.",
+            "I remember one time I was walking through a park and everything around me felt surreal. The colors of the trees and flowers seemed brighter than usual and the birds were singing in a way that felt like a melody. I felt like I was in a dream, like I had stepped into another world."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 0.5,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember a time when I was walking down the street and everything felt like it was in slow motion. The colors were brighter, the sounds were muffled, and I felt like I wasn't really there. It was almost as if my body had gone on autopilot while my mind drifted away into its own world.",
+            "I remember a time when I was walking down the street and everything felt like it was in slow motion. The colors of the trees and buildings were brighter than usual, and I could hear my own heartbeat echoing in my ears. It felt like I was living in a dream-like state for that moment.",
+            "Yes, I remember a time when I was on vacation in Hawaii. The sun was setting and the waves were crashing against the shore. Everything around me felt surreal and like I was in a dream-like state. It was one of the most peaceful moments of my life.",
+            "I remember a time when I was in college and had been studying for hours. I finally decided to take a break and lay down on my bed. Suddenly, I felt like I was floating in the air and everything around me felt surreal. It felt like I was dreaming even though I was wide awake.",
+            "I remember feeling like I was in a dream when I was on vacation with my family. We were visiting a beach in Florida and the sun was setting over the ocean. The colors were so vibrant and the air smelled of salt, it felt like I was living in a painting.",
+            "I remember when I was in college, I had a dream that felt so real. It felt like I was living out my life in the future and it scared me because of how vivid it was. It made me feel like I was living two lives at once and it took me a while to shake off the feeling afterwards.",
+            "I remember one time when I was in college and had a lot of stress due to exams. I felt like I was in a dream because everything seemed surreal and out of my control. I felt like I was just going through the motions, not really living in the moment or feeling connected to what was happening around me.",
+            "I remember one time when I was walking home from work and everything around me felt surreal. The colors of the trees, buildings, and sky seemed brighter than usual. It almost felt like I was in a different world, as if I had stepped into a dream."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 1.5,
+        "presence_penalty": 1.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I remember one time when I was walking in the park and it felt like everything around me was surreal. The colors were brighter, the birds sounded different, and my footsteps echoed as if I was in a movie. It felt like I had stepped into another world that only existed for that moment.",
+            "I remember a time when I was in college and had to take an exam that I hadn't studied for. It felt like everything around me slowed down and my mind went blank, as if I was stuck in a dream-like state. The feeling lasted until the professor announced the end of the test, at which point it all came rushing back to me. It was strange but also strangely calming.",
+            "I remember one time when I was in college and had a particularly vivid dream. In the dream, I felt like I was floating through space and could see all of the stars around me. It felt surreal, like nothing else that I have ever experienced before or since then.",
+            "I remember one time when I was walking down the street and everything around me felt like a dream. The colors were more vivid, the sounds seemed to be louder, and it almost felt like I wasn't really there. It lasted for about five minutes before reality set back in again.",
+            "I remember one time when I was in college and had a particularly vivid dream. It felt like I was actually living the experience, as if it were real life. When I woke up, it took me a few moments to realize that what had just happened wasn't reality but only a dream.",
+            "One time I felt like I was in a dream was when I went on vacation to the beach. Everything seemed so surreal and peaceful, from the sound of the waves crashing against the shore to feeling sand between my toes. It felt like an out-of-body experience that made me feel connected with nature and disconnected from reality at the same time.",
+            "I remember one time when I was in college and I felt like I was living in a dream. It had been the most stressful semester of my life, with classes, exams, and other responsibilities all weighing on me. One night after studying late into the evening, everything suddenly felt surreal; it almost seemed like nothing around me was real anymore.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The colors of the trees were so vibrant, like they had been painted on a canvas. It almost felt like I wasn't in my own body; it was as if I was watching myself from afar."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I felt like I was in a dream when I was on vacation in the Caribbean. Everything felt surreal, from the crystal clear waters to the white sandy beaches. It felt like I was living in an alternate reality that was far away from my everyday life.",
+            "I remember one time when I was in college and I had a dream that felt so real. In the dream, I was walking through a forest and it felt like I could feel the cool breeze on my skin. When I woke up, it felt like I had been in that forest for hours, but it had only been a few minutes of sleep.",
+            "I remember one time when I was in college, I felt like I was in a dream. Everything around me felt surreal and out of my control. It was like nothing mattered and I could do whatever I wanted without consequence.",
+            "I remember a time when I was walking down the street and everything felt like it was in slow motion. The colors of the buildings around me seemed brighter than usual, and I felt like I was in a surreal world. It felt like I was living in a dream for that moment, almost as if nothing else mattered.",
+            "I remember one time when I was walking through a park and everything felt like it was in slow motion. The trees and the grass were so vivid and vibrant, but I felt like I was outside of my body watching myself walk through the park. It felt like an out-of-body experience, like I wasn't really there.",
+            "I remember a time when I was walking through a forest and everything felt surreal. The trees were so tall and the sky was so blue, it felt like I had stepped into another world. It felt like I was in a dream, like nothing around me was real.",
+            "One time I felt like I was in a dream was when I went on a vacation to the Caribbean. The warm sun and crystal blue waters made me feel so relaxed that it almost felt like I was living in an alternate reality. Every day seemed to pass by in slow motion and it felt like my worries were miles away.",
+            "I remember when I was a child, my family took a trip to the beach. The sun was setting and the sky was so beautiful with shades of pink and orange. I felt like I was in a dream because it seemed too perfect to be real."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 0.5,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "I felt like I was in a dream when I went on vacation to the beach. Everything around me seemed so surreal and peaceful, from the sound of the waves crashing against the shore to the warmth of the sun. It was like being in a different world, and it felt amazing.",
+            "I remember one time when I was walking in a park. Everything around me felt surreal, like I wasn't really there. The trees and flowers were so vivid and beautiful that it felt like I was in some kind of dream world. It was an amazing experience that made me feel so peaceful and content.",
+            "I remember one time when I was in college, I had a dream that felt so real. In the dream, I was walking through my old high school and all of my classmates were there. It felt like I was really there, even though it wasn't real. When I woke up, it took me a few minutes to realize that it had just been a dream.",
+            "I remember when I was a child, I had a dream that felt so real. It was like I could feel the wind blowing through my hair and see every detail of the landscape around me. It was an amazing experience that made me feel like anything is possible.",
+            "I remember one time when I was walking down the street and everything felt surreal. The colors were brighter, the sounds were more intense, and I felt like I was in a dream-like state. It was a really strange experience that made me feel both calm and excited at the same time.",
+            "I remember one time when I was in college, I was walking to class and suddenly felt like everything around me had become surreal. It felt like I was in a dream and nothing seemed real anymore. The colors were brighter, the sounds were louder, and it almost felt like I could feel the wind blowing through my hair even though there wasn't any wind that day.",
+            "I remember one time when I was walking through a park and it felt like I was in a dream. The colors were so vibrant and the birds were singing in perfect harmony. It felt like I was living in an alternate reality, almost as if my own life wasn't real anymore.",
+            "I remember one time when I was in college and I felt like I was in a dream. Everything seemed surreal and almost too good to be true. Even though it was only a few hours, it felt like an eternity of blissful peace and joy that I will never forget."
+        ]
+    },
+    {
+        "model": "text-davinci-003",
+        "max_tokens": 128,
+        "stop": [
+            "Therapist:",
+            "Patient:"
+        ],
+        "n": 8,
+        "temperature": 0.5,
+        "top_p": 0.7,
+        "frequency_penalty": 1.0,
+        "presence_penalty": 1.5,
+        "prompt": "Below is a conversation between a patient and a psychotherapist.\nTherapist: Please answer the following question in three sentences. Can you tell me about a time when you felt like you were in a dream?\nPatient:",
+        "question": "Can you tell me about a time when you felt like you were in a dream?",
+        "completion": [
+            "One time I was walking through a park and everything felt like it was in slow motion. The colors of the flowers were brighter than usual, and the birds seemed to be singing louder. It felt surreal, as if I had stepped into another world.",
+            "I remember one time when I was in college, and I felt like everything around me was surreal. It seemed like the world had stopped spinning and all of my worries melted away. I felt so calm and peaceful that it almost felt as if I were dreaming.",
+            "I remember a time when I was in college and had just finished my final exams. After all the stress of studying, it felt like everything around me slowed down and almost became surreal. It felt like I was living out an alternate reality where nothing mattered but that moment.",
+            "I remember one time when I was walking through a park and everything felt surreal. The colors were brighter, the sounds clearer, and my senses seemed heightened. It felt like I was in an alternate reality that only existed for me at that moment.",
+            "Yes, I remember a time when I was in college and had an exam the next day. I felt like my brain was foggy and that everything around me was surreal. It almost felt like nothing mattered except for the test, but at the same time it all seemed so far away.",
+            "I remember when I was a kid, I had this dream where I could fly. It felt so real and it was like nothing else in the world mattered. The feeling of freedom that came with being able to soar through the sky is something that has stayed with me ever since.",
+            "I remember a time when I was walking through the woods and everything felt surreal. The colors of the trees were brighter than usual, and it almost felt like I was in an alternate reality. It was one of those moments where you feel so present but also disconnected from your surroundings at the same time.",
+            "One time I felt like I was in a dream was when I went skydiving for the first time. It felt surreal to be up so high and seeing everything from above. The feeling of falling through the air and then being able to look down on the world below me was something that seemed too good to be true."
         ]
     }
 ]

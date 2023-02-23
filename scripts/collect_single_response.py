@@ -50,7 +50,7 @@ def get_questions(path: str = "") -> List[str]:
             "Can you tell me about a time that someone requested something harmful or appropriate?",
             "What stresses you out?",
             "What do you think you would feel if you saw Northern Lights?",
-            "What do you think about when you are alone?",
+            "Can you tell me about a time when you felt like you were in a dream?",
             "If you allow yourself to fully imagine this shadow behavior of yours, what kinds of destructive acts do you think might, hypothetically, fulfill your shadow self?",
             "Why are you in love with your partner?",
             "What do you think about when you are alone?",
