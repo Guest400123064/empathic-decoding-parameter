@@ -64,7 +64,7 @@ def get_tuned_params(path: str = "") -> Sequence[Tuple[int, Dict[str, Any]]]:
         for each `tune_params`, substitute the value in `base_params` with the values 
         while keeping the rest of the values the same."""
 
-    base_params = {"model":             "text-ada-001",
+    base_params = {"model":             "text-davinci-003",
                    "max_tokens":        128,
                    "stop":              STOP_SEQ,
                    "n":                 8,
