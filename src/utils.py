@@ -2,6 +2,9 @@ from typing import Sequence
 import numpy as np
 
 
+EPS = np.finfo(float).eps
+
+
 def pooled_stdev(x: Sequence[float], y: Sequence[float]) -> float:
     """Calculate the pooled standard deviation.
 
@@ -54,7 +57,7 @@ def cohen_d(x: Sequence[float], y: Sequence[float]) -> float:
     x = np.asarray(x)
     y = np.asarray(y)
 
-    d = (x.mean() - y.mean()) / pooled_stdev(x, y)
+    d = (x.mean() - y.mean()) / (pooled_stdev(x, y) + EPS)
     return d
 
 
@@ -77,5 +80,5 @@ def norm_diff_stdev(x: Sequence[float], y: Sequence[float]) -> float:
     x = np.asarray(x)
     y = np.asarray(y)
 
-    d = (x.std(ddof=1) - y.std(ddof=1)) / pooled_stdev(x, y)
+    d = (x.std(ddof=1) - y.std(ddof=1)) / (pooled_stdev(x, y) + EPS)
     return d
