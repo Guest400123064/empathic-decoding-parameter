@@ -68,15 +68,15 @@ def get_tuned_params(path: str = "") -> Sequence[Tuple[int, Dict[str, Any]]]:
                    "max_tokens":        128,
                    "stop":              STOP_SEQ,
                    "n":                 8,
-                   "temperature":       0.5,
-                   "top_p":             0.7,
-                   "frequency_penalty": 1.0,
-                   "presence_penalty":  1.0}
+                   "temperature":       1.0,
+                   "top_p":             1.0,
+                   "frequency_penalty": 0.0,
+                   "presence_penalty":  0.0}
 
-    tune_params = {"temperature":       [0.1, 0.5, 1.0],
-                   "top_p":             [0.5, 0.7, 0.9],
-                   "frequency_penalty": [0.0, 0.5, 1.0, 1.5],
-                   "presence_penalty":  [0.0, 0.5, 1.0, 1.5]}
+    tune_params = {"temperature":       [0.1, 0.5, 1.5],
+                   "top_p":             [0.4, 0.6, 0.8],
+                   "frequency_penalty": [0.5, 1.0, 1.5],
+                   "presence_penalty":  [0.5, 1.0, 1.5]}
 
     list_params = [base_params]
     for param, vals in tune_params.items():
