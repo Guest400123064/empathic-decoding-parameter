@@ -26,6 +26,11 @@ Below is a conversation between a patient and a psychotherapist.
 Therapist: Please answer the following question in three sentences. {question}
 Patient:
 """.strip()
+TEMPLATE = """
+Below is a conversation between a patient and a psychotherapist.
+Patient: {question}
+Therapist:
+""".strip()
 
 
 def get_questions(path: str = "") -> Sequence[Tuple[int, str]]:
