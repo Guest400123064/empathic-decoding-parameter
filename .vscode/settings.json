@@ -1,13 +1,17 @@
 {
     "cSpell.words": [
         "asarray",
+        "ckpt",
         "ddof",
         "fnames",
+        "gelu",
         "hyperparameters",
         "isin",
+        "keras",
         "liwc",
         "NEGEMO",
         "POSEMO",
+        "qbert",
         "trange",
         "Yuxuan"
     ],
