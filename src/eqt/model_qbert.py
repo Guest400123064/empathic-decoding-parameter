@@ -1,5 +1,5 @@
 import tensorflow as tf
-from model_basics import *
+from .model_basics import *
 
 
 def loss_function(tar_class, pred_class):
