@@ -2,10 +2,16 @@
     "cSpell.words": [
         "asarray",
         "ddof",
+        "fnames",
         "hyperparameters",
         "isin",
         "liwc",
         "NEGEMO",
-        "POSEMO"
+        "POSEMO",
+        "trange",
+        "Yuxuan"
+    ],
+    "cSpell.ignoreWords": [
+        "cfgs"
     ]
 }

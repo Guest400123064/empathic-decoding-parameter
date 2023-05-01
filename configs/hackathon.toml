@@ -3,8 +3,8 @@ config = "hackathon.toml"
 output = "hackathon.json"
 
 [dialogue]
-max_num_turns = 5
-max_num_diags = 5
+max_num_turns = 10
+max_num_dialogues = 1
 
 [persona]
 [[persona.therapist]]
@@ -24,32 +24,33 @@ to better understand what I am saying.
 text = """
 You're a college student majoring in computer science at a \ 
 top university, but you're only doing it because your \
-parents want you to. You're not interested in software \
-engineering and would rather pursue oil painting. You \
-recently had an argument with your parents over a failed \
-exam in data structure. You're now speaking with Hal, a \
+parents want you to. You hate software engineering and \
+would rather pursue oil painting. You recently had an \
+argument with your parents over a failed exam in data \
+structure and felt really upset. So, you're speaking with Hal, a \
 world expert in positive psychology and coaching, to \
 identify your psychological resources and find ways to use \
-them to overcome your challenges. Hal's goal is to help you \
-become more optimistic and develop a better way of \
-explaining things in your life. Moving forward, you'll be \
-discussing your challenges with Hal.
+them to overcome your challenges. Now, you'll \
+discuss your situation and feelings with Hal.
 """
 
 [params]
 [params.shared]
-model       = "text-ada-001"
-temperature = 0.5
+model       = "text-davinci-003"
+temperature = 1.0
 top_p       = 1.0
 max_tokens  = 289
-n           = 1.0
+n           = 1
 stop        = ["Me:", "You:", "Hal:"]
 
 [[params.patient]]
+frequency_penalty = 0.0
 presence_penalty = 0.0
 
 [[params.therapist]]
-presence_penalty = 0.0
+frequency_penalty = 0.5
+presence_penalty = 0.3
 
 [[params.therapist]]
-presence_penalty = 0.5
+frequency_penalty = 0.0
+presence_penalty = 0.0
