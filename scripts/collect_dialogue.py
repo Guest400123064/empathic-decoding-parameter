@@ -117,16 +117,17 @@ class DialogueCollector:
                    "dialogue": []}
 
             prompt_pat, prompt_the = persona_pat, persona_the
-            for _ in tqdm.trange(self.cfg.dialogue.max_num_turns, 
-                                 desc="Self chatting"):
+            self.logger.debug(f"Collecting dialogue with the following personas:")
+            self.logger.debug(f"[ patient ] :: {persona_pat}")
+            self.logger.debug(f"[ therapy ] :: {persona_the}")
+
+            for _ in tqdm.trange(self.cfg.dialogue.max_num_turns, desc="Self chatting"):
                 prompt = f"{prompt_pat}\nYou:"
-                self.logger.debug(f"[ PATIENT PROMPT ] - {prompt}")
                 response_pat = openai.Completion \
                                      .create(prompt=prompt, **params_pat) \
                                      .choices[0].text.strip()
                 
                 prompt = f"{prompt_the}\nMe: {response_pat}\nHal:"
-                self.logger.debug(f"[ THERAPIST PROMPT ] - {prompt}")
                 response_the = openai.Completion \
                                      .create(prompt=prompt, **params_the) \
                                      .choices[0].text.strip()
@@ -136,7 +137,10 @@ class DialogueCollector:
 
                 ret["dialogue"].append({"role": "patient", "text": response_pat})
                 ret["dialogue"].append({"role": "therapist", "text": response_the})
-            
+
+                self.logger.debug(f"[ patient ] :: {response_pat}")
+                self.logger.debug(f"[ therapy ] :: {response_the}")
+
             return ret
 
         # Collect dialogues
@@ -148,10 +152,8 @@ class DialogueCollector:
                 self.logger.info("Aborting...")
                 return self
 
-        for cfgs in tqdm.tqdm(generate_config_stream(),
-                              desc="Collecting dialogues for all configs"):
-            for _ in tqdm.trange(self.cfg.dialogue.max_num_dialogues, 
-                                 desc="Collecting for one config"):
+        for cfgs in tqdm.tqdm(generate_config_stream(), desc="Collecting dialogues for all configs"):
+            for _ in tqdm.trange(self.cfg.dialogue.max_num_dialogues, desc="Collecting for one config"):
                 self.dialogues.append(collect_single(cfgs))
             self.save()
         return self
