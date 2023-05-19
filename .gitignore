@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 # Large model files
-*.h5
+/models/intent
+/models/init
+/models/type

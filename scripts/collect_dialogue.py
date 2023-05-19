@@ -122,18 +122,18 @@ class DialogueCollector:
             self.logger.debug(f"[ therapy ] :: {persona_the}")
 
             for _ in tqdm.trange(self.cfg.dialogue.max_num_turns, desc="Self chatting"):
-                prompt = f"{prompt_pat}\nYou:"
+                prompt = f"{prompt_pat}\nYou: \""
                 response_pat = openai.Completion \
                                      .create(prompt=prompt, **params_pat) \
-                                     .choices[0].text.strip()
+                                     .choices[0].text.strip().strip("\"")
                 
-                prompt = f"{prompt_the}\nMe: {response_pat}\nHal:"
+                prompt = f"{prompt_the}\nMe: \"{response_pat}\"\nHal: \""
                 response_the = openai.Completion \
                                      .create(prompt=prompt, **params_the) \
-                                     .choices[0].text.strip()
+                                     .choices[0].text.strip().strip("\"")
 
-                prompt_pat = f"{prompt_pat}\nYou: {response_pat}\nHal: {response_the}"
-                prompt_the = f"{prompt_the}\nMe: {response_pat}\nHal: {response_the}"
+                prompt_pat = f"{prompt_pat}\nYou: \"{response_pat}\"\nHal: \"{response_the}\""
+                prompt_the = f"{prompt_the}\nMe: \"{response_pat}\"\nHal: \"{response_the}\""
 
                 ret["dialogue"].append({"role": "patient", "text": response_pat})
                 ret["dialogue"].append({"role": "therapist", "text": response_the})
