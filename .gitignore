@@ -129,6 +129,9 @@ dmypy.json
 .pyre/
 
 # Large model files
-/models/intent
-/models/init
-/models/type
+models/intent
+models/init
+models/type
+
+# IDE setting
+.vscode/
