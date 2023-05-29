@@ -4,6 +4,7 @@
         "chisq",
         "ckpt",
         "ddof",
+        "dropna",
         "fnames",
         "gelu",
         "hackathon",
@@ -15,6 +16,7 @@
         "POSEMO",
         "qbert",
         "trange",
+        "Wilcoxon",
         "Yuxuan"
     ],
     "cSpell.ignoreWords": [
