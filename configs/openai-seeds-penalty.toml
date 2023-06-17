@@ -1,6 +1,6 @@
 [fnames]
 config = "openai-seeds-penalty.toml"
-output = "openai-seeds-4turn-16dial-lt-penalty.json"
+output = "openai-seeds-4turn-16dial-lt-pr-penalty.json"
 
 [dialogue]
 max_num_turns = 4
@@ -193,5 +193,5 @@ presence_penalty = 0.0
 
 [[params.therapist]]
 frequency_penalty = 0.0
-presence_penalty = 0.0
+presence_penalty = 1.0
 temperature = 0.5
