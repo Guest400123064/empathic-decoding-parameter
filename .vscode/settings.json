@@ -12,6 +12,7 @@
         "isin",
         "keras",
         "liwc",
+        "multipletests",
         "NEGEMO",
         "POSEMO",
         "qbert",
